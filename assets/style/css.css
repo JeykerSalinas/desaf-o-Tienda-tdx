@@ -1,0 +1,55 @@
+/* Reseteamos los margin y paddings de todas las etiquetas */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Evitamos problemas con las imagenes */
+img, picture, video, iframe, figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  /* opcional */
+  object-fit: cover;
+  /* opcional */
+  object-position: center center;
+}
+
+/* Configuramos anclas suaves */
+html {
+  scroll-behavior: smooth;
+}
+
+.button {
+  display: block;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #0C0910;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #0C0910;
+  padding: 0.375rem 0.75rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.button--small {
+  font-size: 14px;
+  text-orientation: sideways;
+}
+.button--normal {
+  font-size: 18px;
+  padding: 10px 40px;
+}
+.button:hover {
+  border-color: #A0A0A0;
+}
+.button:hover:focus {
+  color: #D1D1D1;
+}
+
+/*# sourceMappingURL=css.css.map */

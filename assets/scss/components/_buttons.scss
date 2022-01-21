@@ -1,0 +1,33 @@
+.button {
+  display: block;
+  font-weight: $fw-bold;
+  line-height: 1.5;
+  color: $color-black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: $color-white;
+  border: 1px solid $color-black;
+  padding: 0.375rem 0.75rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &--small{
+    font-size: $fs-small;
+    text-orientation: sideways;
+
+}
+  &--normal{
+    font-size: $fs-large;
+    padding: 10px 40px;
+  }
+
+  &:hover {
+    border-color: $color-quick-silver;
+  &:focus{
+    color: $color-ligth-grey;
+
+  }
+
+  }
+}
