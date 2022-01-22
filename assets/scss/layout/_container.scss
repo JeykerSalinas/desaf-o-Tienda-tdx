@@ -1,0 +1,12 @@
+.container {
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: row-reverse;
+    &__left{
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;   
+    }
+  }
+}

@@ -7,17 +7,24 @@
   }
   &__content {
     padding: 40px;
-}
-&__title {
+  }
+  &__title {
     font-family: $ff-old-standard;
     font-size: $fs-xx-large;
     font-weight: $fw-bold;
     line-height: 1.5;
-}
-&__text{
-      line-height: 1.7;
-      padding-bottom: 20px;
+  }
+  &__text {
+    line-height: 1.7;
+    padding-bottom: 20px;
   }
 
-
+  @media screen and (min-width: 1024px) {
+    &__img {
+      width: 50%;
+    }
+    &__content{
+      padding: 80px;
+    }
+  }
 }

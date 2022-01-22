@@ -37,6 +37,7 @@
 
 .text-input {
   width: 60vw;
+  max-width: 400px;
   border: 1px solid #D1D1D1;
   padding: 7px 10px;
 }
@@ -125,6 +126,14 @@
   line-height: 1.7;
   padding-bottom: 20px;
 }
+@media screen and (min-width: 1024px) {
+  .hero__img {
+    width: 50%;
+  }
+  .hero__content {
+    padding: 80px;
+  }
+}
 
 .footer {
   background-color: #0C0910;
@@ -156,6 +165,19 @@
   font-size: 14px;
   color: #D1D1D1;
   padding: 10px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .container__left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 /*# sourceMappingURL=css.css.map */
