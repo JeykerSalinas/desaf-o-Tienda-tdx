@@ -1,14 +1,8 @@
   
 
 .text-input {
-  width: 25vw;
+  width: 250px;
   border: 1px solid $color-ligth-grey;
   padding: 7px 10px;
   
 }
-::placeholder {
-    font-weight: $fw-bold;
-    color: black;
-    opacity: 1;
-
-  }

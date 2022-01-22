@@ -1,0 +1,30 @@
+.footer {
+  background-color: $color-black;
+  color: $color-white;
+  display: flex;
+  justify-content: space-between;
+  &__container{
+      padding: 20px 30px;
+
+  }
+  &__banner {
+    font-family: $ff-old-standard;
+    font-weight: $fw-bold;
+    background-color: $color-white;
+    color: $color-black;
+    writing-mode: vertical-lr;
+    width: 35px;
+    @include centralized;
+  }
+  &__title {
+    font-family: $ff-old-standard;
+    font-weight: $fw-bold;
+    font-size: $fs-large;
+  }
+  &__text {
+    font-family: $ff-old-standard;
+    font-size: $fs-small;
+    color: $color-ligth-grey;
+    padding: 10px 0;
+  }
+}

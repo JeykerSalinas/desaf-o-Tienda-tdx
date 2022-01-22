@@ -36,15 +36,9 @@
 }
 
 .text-input {
-  width: 25vw;
+  width: 250px;
   border: 1px solid #D1D1D1;
   padding: 7px 10px;
-}
-
-::placeholder {
-  font-weight: 700;
-  color: black;
-  opacity: 1;
 }
 
 .navbar {
@@ -94,6 +88,38 @@
 .hero__text {
   line-height: 1.7;
   padding-bottom: 20px;
+}
+
+.footer {
+  background-color: #0C0910;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__container {
+  padding: 20px 30px;
+}
+.footer__banner {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  background-color: #fff;
+  color: #0C0910;
+  writing-mode: vertical-lr;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.footer__text {
+  font-family: "Old Standard TT", serif;
+  font-size: 14px;
+  color: #D1D1D1;
+  padding: 10px 0;
 }
 
 /*# sourceMappingURL=css.css.map */
