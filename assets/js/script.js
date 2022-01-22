@@ -1,4 +1,6 @@
+
 const toggle = () => {
-    const nav = document.getElementById("topnav");
-    nav.className === "navbar" ? nav.className += " responsive" : nav.className = "navbar";
+    console.log(document)
+    const nav = document.getElementById("favnav");
+    nav.className === "navbar__items" ? nav.className = "navbar__hide" : nav.className = "navbar__items";
 };
