@@ -12,14 +12,44 @@
       href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./assets/js/script.js"></script>
   </head>
   <body>
-    <h1>Im saas and im alive</h1>
-    <button class="button button--small">Ir a tienda</button>
-    <button class="button button--normal">Ir a tienda</button>
-    <input type="text" placeholder="Ingresa tu correo electrónico">
+    <nav class="navbar">
+      <p class="navbar__logo">XDA</p>
+      <div class="navbar__bar">
+        <div class="navbar__items">
+          <a href="#">Mujer</a>
+          <a href="#">Hombre</a>
+          <a href="#">Accesorios</a>
+          <a href="#">Blog</a>
+        </div>
+        <button class="navbar__toggle" onclick="toggle()">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+    <section class="hero">
+      <img src="./assets/img/imagen1.png" alt="" class="hero__img" />
+      <div class="hero__content">
+          <p class="hero__title">LOREM IPSUM AD VALOREM</p>
+          <p class="hero__text">
+            Sed ut perspicatis unde omnis iste natus error sit volumptatem
+            accusantium doloremque laudatium, totam rem aperiam, eaque ipsa
+        </p>
+        <button class="button button--small">Ir a tienda</button>
+      </div>
+    </section>
+    <footer class="footer">
+
+    </footer>
+    <!-- <button class="button button--normal">Ir a tienda</button>
+    <input type="text" placeholder="Ingresa tu correo electrónico" class="text-input"> -->
   </body>
 </html>
-
 
 <!-- writing-mode: vertical-lr; -->

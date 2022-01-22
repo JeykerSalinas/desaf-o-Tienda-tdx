@@ -6,7 +6,7 @@
 // // Variables
 @import "abstract/variables";
 // //Mixins
-// @import "abstract/mixins";
+@import "abstract/mixins";
 
 // // Base
 @import "base/reset";
@@ -16,12 +16,13 @@
 // @import "base/typography";
 
 // // Components
-@import "components/buttons"
+@import "components/buttons";
+@import "components/input";
 
 // // Layout
 // @import "layout/footer";
-// @import "layout/navbar";
-// @import "layout/hero";
+@import "layout/navbar";
+@import "layout/hero";
 // @import "layout/content";
 // @import "layout/profile";
 // @import "layout/pagination";
