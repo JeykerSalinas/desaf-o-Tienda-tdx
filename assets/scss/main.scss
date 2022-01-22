@@ -1,8 +1,3 @@
-
-   
-// // Abstract
-// @import "abstract/abstract";
-
 // // Variables
 @import "abstract/variables";
 // //Mixins
@@ -11,19 +6,12 @@
 // // Base
 @import "base/reset";
 
-// //Typography
-
-// @import "base/typography";
-
 // // Components
 @import "components/buttons";
 @import "components/input";
 
 // // Layout
-// @import "layout/footer";
 @import "layout/navbar";
 @import "layout/hero";
 @import "layout/footer";
 @import "layout/container";
-// @import "layout/pagination";
-
